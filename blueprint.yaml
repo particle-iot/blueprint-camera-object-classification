@@ -1,22 +1,28 @@
 id: edge-impulse/camera-object-classification
 category: solution
 icon: edgeimpulse.png
-gitrepo: https://github.com/particle-iot/amera-object-classification
+gitrepo: https://github.com/particle-iot/blueprint-camera-object-classification
 name: "Camera object classification"
-shortDescription: Classifying objects in front of a camera using Edge Impulse
+shortDescription: Classifying objects using Edge Impulse and Particle
 version: 1.0.0
 models: []
-language: "Particle Wiring"
+language: [ "Particle Wiring" ]
 cloudServices: []
 integrations: [ "edge-impulse" ]
 hardwareDependencies:
   - name: Photon 2, M-SoM
     link: https://store.particle.io/collections/all-products?filter.p.product_type=Development%20Boards
+    tags: [ "Photon 2", "M-SoM", "camera", "uCAM-III" ]
 description: |
-  This project illustrates objects in view of a camera. It's pre-programmed to detect:
-  - Lamps
-  - Plants
-  - Pianos
-  You can easily retrain the model to detect any objects you like.
+  This project demonstrates how to use Edge Impulse to classify objects in front of a camera connected to Particle devices like the Photon 2 or M-SoM. With Edge Impulse’s machine learning capabilities, this project can recognize and classify objects in real time, ideal for smart home systems, security applications, and more.
 
+  Key Features:
+  - Edge Impulse Integration: Leverage Edge Impulse’s ML models to detect objects.
+  - Device Compatibility: Compatible with Particle Photon 2, Boron, and M-SoM devices.
+  - Customizable Model: Pre-trained to detect lamps, plants, and pianos, but can be easily retrained to identify other objects.
   
+  Steps include:
+  - Hardware Setup: Connect a uCAM-III camera module to your Particle device.
+  - Data Collection: Use Edge Impulse to gather and label training images.
+  - Model Training: Train a custom model on Edge Impulse for object detection.
+  - Deployment: Deploy the model on Particle and start recognizing objects in real-time.

@@ -1,0 +1,22 @@
+id: edge-impulse/camera-object-classification
+category: solution
+icon: edgeimpulse.png
+gitrepo: https://github.com/particle-iot/amera-object-classification
+name: "Camera object classification"
+shortDescription: Classifying objects in front of a camera using Edge Impulse
+version: 1.0.0
+models: []
+language: "Particle Wiring"
+cloudServices: []
+integrations: [ "edge-impulse" ]
+hardwareDependencies:
+  - name: Photon 2, M-SoM
+    link: https://store.particle.io/collections/all-products?filter.p.product_type=Development%20Boards
+description: |
+  This project illustrates objects in view of a camera. It's pre-programmed to detect:
+  - Lamps
+  - Plants
+  - Pianos
+  You can easily retrain the model to detect any objects you like.
+
+  

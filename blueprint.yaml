@@ -1,6 +1,10 @@
 id: edge-impulse/camera-object-classification
-category: solution
-icon: edgeimpulse.png
+slug: edge-impulse-camera-object-classification
+type: solution
+category: "AI and machine learning" 
+expertiseLevel: ""
+tags: ["AI", "ML"]
+icon: assets/edgeimpulse.png
 gitrepo: https://github.com/particle-iot/blueprint-camera-object-classification
 name: "Camera object classification"
 shortDescription: Classifying objects using Edge Impulse and Particle
@@ -8,11 +12,18 @@ version: 1.0.0
 models: []
 language: [ "Particle Wiring" ]
 cloudServices: []
-integrations: [ "edge-impulse" ]
+integrations:
+  - name: edge-impulse
+    icon: assets/edgeimpulse.png
+supportedDevices:
+  - name: Photon 2
+  - name: M-SoM
 hardwareDependencies:
-  - name: Photon 2, M-SoM
-    link: https://store.particle.io/collections/all-products?filter.p.product_type=Development%20Boards
-    tags: [ "Photon 2", "M-SoM", "camera", "uCAM-III" ]
+  - name: 1x Supported device
+  - name: 1x ucam III
+    link: https://4dsystems.com.au/products/ucam-iii/
+introduction: |
+  This solution is designed for Particle devices like the Photon 2 and M-SoM.
 description: |
   This project demonstrates how to use Edge Impulse to classify objects in front of a camera connected to Particle devices like the Photon 2 or M-SoM. With Edge Impulse’s machine learning capabilities, this project can recognize and classify objects in real time, ideal for smart home systems, security applications, and more.
 
@@ -26,3 +37,5 @@ description: |
   - Data Collection: Use Edge Impulse to gather and label training images.
   - Model Training: Train a custom model on Edge Impulse for object detection.
   - Deployment: Deploy the model on Particle and start recognizing objects in real-time.
+
+additionalResources:

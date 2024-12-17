@@ -1,9 +1,8 @@
-id: edge-impulse/camera-object-classification
 slug: edge-impulse-camera-object-classification
 type: solution
 category: "AI and machine learning" 
-expertiseLevel: ""
-tags: ["AI", "ML"]
+expertiseLevel: "intermediate"
+tags: ["camera", "identification", "AI", "ML"]
 icon: assets/edgeimpulse.png
 gitrepo: https://github.com/particle-iot/blueprint-camera-object-classification
 name: "Camera object classification"

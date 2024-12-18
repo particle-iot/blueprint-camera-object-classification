@@ -1,9 +1,9 @@
 slug: edge-impulse-camera-object-classification
-type: solution
+type: Solution
 category: "AI and machine learning" 
-expertiseLevel: "intermediate"
-tags: ["camera", "identification", "AI", "ML"]
-icon: assets/edgeimpulse.png
+expertiseLevel: "Intermediate"
+tags: ["Camera", "Identification", "AI", "ML"]
+icon: assets/camera-object-classification.svg
 gitrepo: https://github.com/particle-iot/blueprint-camera-object-classification
 name: "Camera object classification"
 shortDescription: Classifying objects using Edge Impulse and Particle
@@ -13,7 +13,7 @@ language: [ "Particle Wiring" ]
 cloudServices: []
 integrations:
   - name: edge-impulse
-    icon: assets/edgeimpulse.png
+    icon: assets/edge-impulse.svg
 supportedDevices:
   - name: Photon 2
   - name: M-SoM

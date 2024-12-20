@@ -22,7 +22,8 @@ hardwareDependencies:
   - name: 1x ucam III
     link: https://4dsystems.com.au/products/ucam-iii/
 introduction: |
-  This solution is designed for Particle devices like the Photon 2 and M-SoM.
+  Integrate Edge Impulse’s ML with Particle devices to classify objects from a connected camera in real time.
+
 description: |
   This project demonstrates how to use Edge Impulse to classify objects in front of a camera connected to Particle devices like the Photon 2 or M-SoM. With Edge Impulse’s machine learning capabilities, this project can recognize and classify objects in real time, ideal for smart home systems, security applications, and more.
 

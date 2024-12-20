@@ -18,8 +18,8 @@ supportedDevices:
   - name: Photon 2
   - name: M-SoM
 hardwareDependencies:
-  - name: 1x Supported device
-  - name: 1x ucam III
+  - name: Supported device
+  - name: ucam III
     link: https://4dsystems.com.au/products/ucam-iii/
 introduction: |
   Integrate Edge Impulse’s ML with Particle devices to classify objects from a connected camera in real time.
